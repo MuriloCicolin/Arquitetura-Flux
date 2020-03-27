@@ -32,7 +32,7 @@ export const Container = styled.div`
 export const ProductTable = styled.table`
   width: 100%;
 
-  thead td {
+  thead th {
     color: #999;
     text-align: left;
     padding: 12px;
