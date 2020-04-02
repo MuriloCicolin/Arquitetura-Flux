@@ -25,7 +25,6 @@ export default function cart(state = [], action) {
       if (action.amount <= 0) {
         return state;
       }
-
       return produce(state, (draft) => {
         const productIndex = draft.findIndex((p) => p.id === action.id);
         if (productIndex >= 0) {
